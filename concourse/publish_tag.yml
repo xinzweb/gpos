@@ -4,7 +4,7 @@ inputs:
   - name: gpos_src
   - name: bin_gpos_centos5_release
 outputs:
-  - name: gpos_github_release
+  - name: gpos_github_release_stage
 run:
   path: /bin/bash
   args:
