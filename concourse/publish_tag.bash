@@ -4,7 +4,9 @@ set -u -e -x
 
 main() {
   pushd gpos_src
-  git tag v0.1 head
+  echo "test release" > name.txt
+  echo "v0.1" > tag.txt
+  echo "hello" > body.txt
 }
 
 main "$@"

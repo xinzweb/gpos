@@ -2,9 +2,9 @@ platform: linux
 image: docker:///yolo/orcadev#centos5
 inputs:
   - name: gpos_src
-  - name: build_and_test_centos5_release
+  - name: bin_gpos_centos5_release
 outputs:
-  - name: gpos_src
+  - name: gpos_github_release
 run:
   path: /bin/bash
   args:
