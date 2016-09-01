@@ -4,8 +4,8 @@ inputs:
   - name: gpos_src
   - name: bin_gpos_centos5_release
   - name: bin_gpos_centos5_debug
-  - name: bin_gpos_osx32_release
-  - name: bin_gpos_osx32_debug
+#  - name: bin_gpos_osx32_release
+#  - name: bin_gpos_osx32_debug
 outputs:
   - name: gpos_github_release_stage
 run:
